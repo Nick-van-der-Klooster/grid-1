@@ -2,34 +2,41 @@
 body {
 	background-image: url("bg.png");
 	font-family: Tahoma;
+  max-width: 620px;
+  margin-left: auto;
+  margin-right: auto;
+	max-height: 720px;
 }
 
 .frame{
 	background-color: rgba(0,128,0,0.4);
-	
-	/* put css-rules in this ccs-block here below */
-	
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
-
 h1{
 	background-color: rgba(0,32,0,0.4);
 	line-height: 40px;
-	
-	/* put css-rules in this ccs-block here below */
-	
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-indent: 20px;
+	margin-bottom: 30px;
 }
 
 h2 {
 	line-height: 30px;
-	
-	/* put css-rules in this ccs-block here below */
-	
+  border-style: solid;
+  border-color: purple;
+  border-width: 5px;
+	padding-left: 20px;
+	padding-top: 6px;
+	padding-bottom: 6px;
 }
 
 p{
 	background-color: rgba(256,256,0,0.4);
 	line-height: 20px;
-	
-	/* put css-rules in this ccs-block here below */
-
+	margin: 10px 0;
+	padding: 10px;
 }
